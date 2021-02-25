@@ -8,6 +8,11 @@
 @import 'brand';
 @import 'components/hamburger';
 
+.btn:focus, button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
 h1, h2, h3, .font-brand, .nav-link:not(.btn) {
 	font-family: 'Baloo Bhai 2', cursive;
 	color: $dark-color!important;

@@ -16970,7 +16970,7 @@ a.text-dark:focus {
 .animated-icon3 span {
   display: block;
   position: absolute;
-  height: 1px;
+  height: 2px;
   width: 100%;
   border-radius: 9px;
   opacity: 1;
@@ -16980,7 +16980,7 @@ a.text-dark:focus {
 }
 
 .animated-icon2 span {
-  background: white;
+  background: #474555;
 }
 
 .animated-icon2 span:nth-child(1) {
@@ -17014,6 +17014,12 @@ a.text-dark:focus {
   top: 11px;
   width: 0%;
   left: 50%;
+}
+
+.btn:focus,
+button:focus {
+  outline: none;
+  box-shadow: none;
 }
 
 h1,

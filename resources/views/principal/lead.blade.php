@@ -1,4 +1,4 @@
-<section class="container" style="margin-top: 2%; margin-bottom: 2%">
+<section id="lead" class="container" style="margin-top: 140px; margin-bottom: 2%">
 	<div class="row">
 		<div class="col-lg-6 col-md-8 col-12 d-flex align-items-center">
 			<div class="my-2">

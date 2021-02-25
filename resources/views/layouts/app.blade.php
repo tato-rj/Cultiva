@@ -120,7 +120,36 @@ body {
   }
     });
   </script>
+<script type="text/javascript">
+  var $navbar = $('nav.navbar');
 
+        $(document).ready(function() {
+            $('button.navbar-toggler').on('click', function () {
+                let $hamburger = $('.animated-icon2');
+
+                $hamburger.toggleClass('open');
+
+                // if ($hamburger.hasClass('open')) {
+                //     $('nav.navbar').not('.navbar-fixed');
+                // } else {
+                //     setTimeout(function() {
+                //         $('nav.navbar').not('.navbar-fixed').delay(200);
+                //     }, 200);
+                // }
+            });
+        });
+
+        $(window).scroll(function() {
+            let firstScreen = $('#lead').offset().top + $('#lead').height();
+            let scrollTop = $(this).scrollTop();
+
+            if (scrollTop > (firstScreen / 2)) {
+                $navbar.addClass('shadow-sm');
+            } else {
+                $navbar.removeClass('shadow-sm');
+            }
+        });
+</script>
     @stack('scripts')
 </body>
 </html>

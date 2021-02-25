@@ -17,7 +17,7 @@ cursor: pointer;
 .animated-icon1 span, .animated-icon2 span, .animated-icon3 span {
 display: block;
 position: absolute;
-height: 1px;
+height: 2px;
 width: 100%;
 border-radius: 9px;
 opacity: 1;
@@ -33,7 +33,7 @@ transition: .25s ease-in-out;
 }
 
 .animated-icon2 span {
-background: white;
+background: $dark-color;
 }
 
 .animated-icon2 span:nth-child(1) {
