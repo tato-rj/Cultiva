@@ -1,6 +1,6 @@
 <section class="container mb-7">
 	<div class="row">
-		<div class="col-lg-6 col-md-6 col-12 d-flex align-items-center">
+		<div class="col-lg-6 col-md-6 col-12 mb-4 d-flex align-items-center">
 			<div>
 				<h3 class="mb-4">Ajudamos a criar soluções para a sua organização</h3>
 				<ul class="list-flat">
@@ -13,7 +13,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="col-lg-6 col-md-6 col-12">
+		<div class="col-lg-6 col-md-6 col-12 mb-4">
 			<img src="{{asset('images/backgrounds/office.jpg')}}" class="shadow w-100">
 		</div>
 	</div>
