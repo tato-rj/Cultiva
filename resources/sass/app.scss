@@ -1,0 +1,27 @@
+// Fonts
+@import "~@fortawesome/fontawesome-free/css/all.min";
+// Variables
+@import 'variables';
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import 'custom_bs';
+@import 'brand';
+@import 'components/hamburger';
+
+h1, h2, h3, .font-brand, .nav-link:not(.btn) {
+	font-family: 'Baloo Bhai 2', cursive;
+	color: $dark-color!important;
+}
+
+.btn {
+	font-size: inherit;
+	border-radius: 200px;
+}
+
+.border {
+	border-width: 2px !important;
+}
+
+.rounded {
+	border-radius: 2rem !important;
+}
